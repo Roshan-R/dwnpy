@@ -25,9 +25,12 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
+#subdir('tools')
+
 dwnpy_sources = [
   '__init__.py',
   'main.py',
+  'GAsync.py',
   'window.py',
 ]
 

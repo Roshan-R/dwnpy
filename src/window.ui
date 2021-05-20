@@ -77,6 +77,7 @@ Paste link below</property>
                     <property name="can-focus">True</property>
                     <property name="hexpand">True</property>
                     <property name="placeholder-text" translatable="yes">Paste Link Here</property>
+                    <property name="input-purpose">url</property>
                   </object>
                   <packing>
                     <property name="expand">True</property>
@@ -239,7 +240,7 @@ Paste link below</property>
                 <property name="double-buffered">False</property>
                 <property name="halign">center</property>
                 <property name="valign">center</property>
-                <property name="pixbuf">../../../../../../tmp/image.jpg</property>
+                <property name="pixbuf">../../../../../tmp/image.jpg</property>
               </object>
               <packing>
                 <property name="expand">False</property>
